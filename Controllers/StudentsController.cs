@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using twitter_vinicius.Repository;
 using twitter_vinicius.Models;
@@ -15,6 +16,7 @@ public class StudentsController : Controller
         _repository = repository;
     }
 
+    [Authorize]
     [HttpGet]
     public IActionResult Get()
     {
@@ -22,6 +24,7 @@ public class StudentsController : Controller
         return Ok(students);
     }
 
+    [Authorize]
     [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
@@ -29,6 +32,7 @@ public class StudentsController : Controller
         return Ok(student);
     }
 
+    [AllowAnonymous]
     [HttpPost]
     public IActionResult Post(Student student)
     {
@@ -36,6 +40,7 @@ public class StudentsController : Controller
         return Ok(student);
     }
 
+    [Authorize]
     [HttpPut("{id}")]
     public IActionResult Put(int id, Student student)
     {
@@ -43,6 +48,7 @@ public class StudentsController : Controller
         return Ok(student);
     }
 
+    [Authorize]
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
