@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace twitter_vinicius.Repository;
 
-public class TryitterRepository
+public class TryitterRepository : ITwitterRepository
 {
     protected readonly TryitterContext _context;
 

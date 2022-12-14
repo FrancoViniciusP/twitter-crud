@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using twitter_vinicius.Models;
 
 namespace twitter_vinicius.Repository;
-public class TryitterContext : DbContext
+public class TryitterContext : DbContext, ITryitterContext
 {
     public TryitterContext(DbContextOptions<TryitterContext> options) : base(options) {}
     public DbSet<Student> Students { get; set; }
