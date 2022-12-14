@@ -18,7 +18,7 @@ public class StudentDTO
     public string Email { get; set; }
     public string Level { get; set; }
     public string Password { get; set; }
-    public ICollection<Post> Posts { get; set; }
+    public List<PostDTO> Posts { get; set; }
 }
 
 public class StudentDTONew
