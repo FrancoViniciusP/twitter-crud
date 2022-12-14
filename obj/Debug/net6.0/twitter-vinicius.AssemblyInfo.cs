@@ -17,6 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("twitter-vinicius")]
 [assembly: System.Reflection.AssemblyTitleAttribute("twitter-vinicius")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("twitter-vinicius.Test")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

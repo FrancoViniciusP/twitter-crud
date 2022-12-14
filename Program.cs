@@ -11,6 +11,7 @@ builder.Services.AddScoped<ITryitterContext, TryitterContext>();
 builder.Services.AddScoped<ITryitterRepository, TryitterRepository>();
 builder.Services.AddScoped<ILoginRepositor, LoginRepository>();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -32,6 +33,12 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
@@ -41,3 +48,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program {}
