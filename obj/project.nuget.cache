@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HhyNoS9debQ3nFmx1gC7p5jajGTlEK5hTKurHP5Q85woFnFroVKyDWpqtCXP+xo15NnKTKAoO7K08bQoj/vqJQ==",
+  "dgSpecHash": "XrhIrjsO3P9QqW/7d+Sq/8RStysqhi5xaghqfqOWcaQXLTkIz+RNeXDFzMjG2kh8RwxHrScWDwCD+gDedd0h7Q==",
   "success": true,
   "projectFilePath": "D:\\RiderProjects\\twitter-vinicius\\twitter-vinicius\\twitter-vinicius.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,8 @@
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.21.0\\microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",

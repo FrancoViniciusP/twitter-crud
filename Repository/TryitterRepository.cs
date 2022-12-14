@@ -1,9 +1,8 @@
 using twitter_vinicius.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace twitter_vinicius.Repository;
 
-public class TryitterRepository : ITwitterRepository
+public class TryitterRepository : ITryitterRepository
 {
     protected readonly TryitterContext _context;
 

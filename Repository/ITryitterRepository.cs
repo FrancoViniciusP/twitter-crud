@@ -2,7 +2,7 @@ using twitter_vinicius.Models;
 
 namespace twitter_vinicius.Repository;
 
-public interface ITwitterRepository
+public interface ITryitterRepository
 {
     IEnumerable<StudentDTO> GetStudents();
     StudentDTO GetStudentById(int id);

@@ -8,9 +8,9 @@ namespace twitter_vinicius.Controllers;
 [Route("students")]
 public class StudentsController : Controller
 {
-    private readonly ITwitterRepository _repository;
+    private readonly ITryitterRepository _repository;
 
-    public StudentsController(ITwitterRepository repository)
+    public StudentsController(ITryitterRepository repository)
     {
         _repository = repository;
     }
