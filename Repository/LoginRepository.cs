@@ -3,7 +3,7 @@ using twitter_vinicius.Token;
 
 namespace twitter_vinicius.Repository;
 
-public class LoginRepository
+public class LoginRepository : ILoginRepositor
 { 
     protected readonly TryitterContext _context;
 
